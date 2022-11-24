@@ -1,0 +1,37 @@
+@import '../libs/reset';
+@import '../libs/button';
+@import '../libs/animation';
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+}
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+@import '../blocks/navigation';
+@import '../blocks/about';
+@import '../blocks/discount';
